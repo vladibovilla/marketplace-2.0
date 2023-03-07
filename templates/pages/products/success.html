@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block navbar %}
+{% include 'components/navbar.html' %}
+{% endblock navbar %}
+
+{% block content %}
+<div class="flex items-center justify-center h-screen">
+    <div class="bg-green-500 text-white p-6 rounded-lg text-center">
+      <i class="fas fa-check-circle fa-3x mb-4 text-green-200"></i>
+      <h1 class="text-xl font-medium">¡Pago realizado con éxito!</h1>
+      <p class="text-base font-light">Gracias por su compra, su orden será procesada y enviada a la brevedad.</p>
+    </div>
+</div>
+  
+  
+{% endblock content %}
+
+{% block footer %}
+
+{% endblock footer %}
+
+
+{% block javascript %}
+
+
+
+{% endblock javascript %}
